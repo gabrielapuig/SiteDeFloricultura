@@ -1,0 +1,99 @@
+#img1 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#img2 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#img3 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#img4 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#img5 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#img6 {
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+.tit2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#box_section div#fotos{
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid pink;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url("fundo-rosa-background.png");
+}
+
+box_section{
+    padding: 2% 5%;
+}
+
+div#fotos figure{
+    box-sizing: border-box;
+    min-width: 250px;
+    width: calc(99% / 4);
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+figure .imgs{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 10px 7px 8px #888;
+}
+
+figcaption{
+    font-size: 20px;
+    color:#000000;
+    background-color: #FFE5ED;
+    height: 20px;
+    width: 100px;
+    float: center;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+
+}

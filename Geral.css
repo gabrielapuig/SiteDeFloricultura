@@ -1,0 +1,130 @@
+/* RESET */
+
+
+div, header, nav, section, article, aside, figure, footer, title{
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    text-transform: none;
+}
+
+/* HEAD */
+
+#logo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 4.5%;
+    border: solid %999 4px;
+    box-shadow: 1px 1px #999;
+            }
+
+
+#container nav{
+    background-color: #FFE5ED;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav li{
+    border: solid 3px #CCC1;
+    width: calc(60%/4);
+    min-width: 40px;
+    text-align: center;
+    background-color: #FFCBDB;
+    box-shadow: 3px 3px #CCC;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palevioletred;
+    display: block;
+    padding: 10px;
+}
+
+/* BODY */
+
+html, body{
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: lightpink;
+}
+
+p{
+    text-indent: 0%;
+}
+
+h1 {
+    color: palevioletred;
+    font-size: 2.2rem;
+    font-family: sans-serif, serif, fantasy;
+    text-shadow: 3px 5px 6px white;
+}
+
+.tit2 { color: lavenderblush;
+    margin-left: 0%;
+}
+
+body #container {
+    margin: auto;
+    width: 90%;
+    border: 5px solid lavenderblush;
+    background-color: rgb(0,0,255,0.1);
+    font-size: 15px;
+}
+body {
+    text-align:center;
+    text-decoration: inherit;
+    text-transform:lowercase;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+
+
+
+/* FOOTER  */
+
+.back_foot{
+    background-image: 
+        linear-gradient(to bottom, 
+        rgba (100,240,240,0,42)
+        rgba (100, 100, 240, 0,43))
+        background: contain;
+}
+
+#box_footer {
+    clear:both;
+}
+
+footer table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer td{
+    display: inline-block;
+    background-color: #FFE5ED;
+    min-width: 30px;
+    border: solid 1px pink;
+    padding: 5px;
+}
+
+footer td a{
+    text-decoration: none;
+    color: hotpink;
+    display: block;
+    padding: 10px;
+}
+
+#grad1 {
+    height: 50px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+}

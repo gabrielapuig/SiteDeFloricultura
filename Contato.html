@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="Geral.css"/>
+        <link rel="stylesheet" href="Contato.css"/>
+        <link rel="stylesheet" href="resposividade.css"/>
+         <meta charset="UTF-8"/>
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+         <title> Contato </title>
+    </head>
+    <body id="inicio">
+      <div id= "container">
+          <head id="box_menu" class="back_head"> 
+              <h1 id="tit1"> <a href="Home.html"> <img id="logo" src="pngwing.com.png" with="100" alt="Logo"title="Nosso Logo"/></a> <em>Contato</em> </h1>
+          </head>
+          <nav id="box_menu">
+            <ul id="lista_menu">
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="QuemSomos.html">Sobre</a></li>
+              <li><a href="Galeria.html">Galeria</a></li>
+              <li><a href="Contato.html">Contato</a></li>
+            </ul>
+          </nav>
+          
+        <form id="form1" name="form1" action="mailto:seu@email.com">
+            <fieldset><legend>Dados Pessoais</legend>
+                <p>
+                    <label for="user">Nome:</label>
+                    <input type="text" id="user" name="user" placebolder="informe seu nome" size="10" maxlength="15 " required="required">
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" size="10" maxlength="15" required="required">
+                </p>
+                <p>
+                    <label for="senha">Telefone:</label>
+                    <input type="number" id="Tel" name="telefone" size="10" maxlength="15 " required="required">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend> Outros Dados</legend>
+                <p> 
+                <label>Possui Cadastro:</label>
+                <label for="sim">Sim: </label>
+                    <input type="radio" id="sim" name="enq" value="s">
+                <label for="nao">Nao: </label>
+                    <input type="radio" id="nao" name="enq" value="n">
+                </p>
+                <p>
+                    <label>Unidade:</label>
+                    <p id="lista">
+                        Paulista:<input type="checkbox" id="nat" name="natacao" value="nat">
+                        
+                        Jardins:<input type="checkbox" id="jard" name="jard" value="jard">
+                        Tiradentes:<input type="checkbox" id="tira" name="tira" value="tira" checked="checked">
+                </p>
+                <input type="hidden" id="oculto" name="oculto" value="Conteudo oculto...">
+                <p>
+                    Qantidade:<input type="number" min="0" max="100" step="10" id="num" name="num">
+                </p>
+                <p>
+                    Data:<input type="date" id="data" name="data">
+                </p>
+                <p>
+                    Cor:<input type="color" id="cor" name="cor">
+                </p>
+                <p>
+                    Preço:<input type="range" min="0" max="100" id="ran" name="ran">
+                </p>
+                
+            </fieldset>
+            
+            <fieldset>
+                <p>
+                    <label for="regiao"> Tipo de Compra:</label><br/>
+                    <select size="4" multiple="multiple" id="regiao" name="regiao">
+                        <option value="n">Entrega</option>
+                        <option value="s" selected>Retirada</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comment"> Endereço de entrega:</label><br/>
+                    <textarea cols="20" rows="4" size="10" maxlength="15 "  id="coment" name="coment"></textarea>
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend> Envio de Dados</legend>
+            <p>
+                <input type="submit" value="Enviar" id="Enviar">
+                <input type="reset" value="Limpar" id="Limpar">
+            </p>
+            </fieldset>
+          </form>
+        </div>
+        <footer id="box_footer" class="back_foot">
+            <table id=tabpaginas>
+                <tr><td> <a href="Home.html">Home</a></td><td><a href="#"> Sobre </a></td><td> <a href="galeria.html">Galeria</a></td><td> <a href="contato.html">Contato</a></td>
+                </tr> 
+            </table> 
+            <address> 
+                <div id="grad1">
+                    <p> &copy;ILP-540-Fatec-SP </p> 
+                </div>
+            </address> 
+        </footer> 
+        </body>
+    </html>

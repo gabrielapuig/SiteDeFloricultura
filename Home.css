@@ -1,0 +1,141 @@
+ 
+#title{
+    margin: auto;
+}
+/*BODY*/
+#container1, #container2, #container3{
+     background-image: url("imagem%20de%20fundo.jpg");
+     background-attachment: scroll;
+     background-repeat: no-repeat; 
+     background-position: center; 
+     background-size: cover;
+}
+
+#div1 {
+    width: 400px; 
+    height:200px; 
+    padding: 0%5%;
+    text-align: left;
+    background-color:rgba(240,240,240,.5); 
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+}
+
+#container1 {  
+    border: 1px dotted lavenderblush; 
+    padding:inherit;
+    width: 20%; 
+    height:40px; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;           
+    background-color: palevioletred;
+    margin-left: 280px;
+    font-family: fantasy;
+    justify-content: center;
+}
+
+#container2 {  
+    border: 1px dotted lavenderblush; 
+    padding:inherit;
+    width: 20%; 
+    height:40px; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;           
+    background-color: hotpink;
+    margin-left: 400px;
+    font-family: fantasy;
+}
+#container3 {  
+    border: 1px dotted lavenderblush; 
+    padding:inherit;
+    width: 20%; 
+    height:40px; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;           
+    background-color: lightpink;
+    margin-left: 150px;
+    font-family: fantasy;
+}
+figcapion {
+    font-size: 8em;
+    font-style: italic;
+    color: azure;
+    background-color: aliceblue;
+}
+
+
+
+/* #art1 {
+    float: inherit; background-color: deeppink;
+}
+
+  #art2 {
+      float: inherit; background-color: gold;
+}
+ */
+#tabflor  {
+    border-collapse:separate; 
+    border-spacing: 2px;
+    width: 100px; 
+    height: 100px;
+    vertical-align: sub;
+    empty-cells: hide;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+}    
+
+th, tr, td {
+    border: 1px solid black; 
+}
+
+th#verde{
+    background-color:green;
+    color:white;
+}
+
+th#azul{
+    background-color:blue;
+    color:white;
+}
+
+caption {
+    caption-side: center; 
+} 
+
+#div2{
+    width: 100px; 
+    height:200px; 
+    padding: 0%5%;
+    text-align: left;
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    
+}
+
+
+/* ASIDE*/
+
+aside {
+    clear: both;
+    background-color: beige;
+    background: lavenderblush;
+}
+
+aside ul{
+    list-style: upper-roman inside;
+    color: palevioletred;
+    display: grid;
+}
+
+aside li{
+    padding: 1px 0;
+}
+
+/* FOOTER  */
+

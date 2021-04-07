@@ -1,0 +1,52 @@
+
+#img4{
+    max-width: 30%;
+    height: auto;
+    float: right;
+    margin-right: 5%;  
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#box_aside {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 40px;
+    border: 2px solid  #CCC1;
+    background-color: #FFCBDB;
+}
+
+#box_aside > div{
+    width: calc(99%/3);
+    
+    min-width: 200px;
+    text-align: center;
+    padding: 20px 2%;
+   
+}
+
+#box_aside iframe{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+}
+
+#box_aside audio{
+    max-width: 100%;
+}
+
+#box_aside #som{
+    background-color: palevioletred;
+    color: antiquewhite;
+}
+
+audio{
+    outline: none;
+}
+
+#video #rieu{
+    max-width: 100%;
+    border-radius: 5px;
+}

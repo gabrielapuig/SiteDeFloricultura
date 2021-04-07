@@ -1,0 +1,206 @@
+@media screen {                       
+  
+    h1 {
+        font-size: 160%;
+        line-height: 50px;
+    }   
+    p{
+        font-size: 7px;
+    }
+    img#logo {
+        width:15%;
+        height: auto;
+    }
+    #list_menu {                       
+        display: none;
+    }
+    #img_icon {          
+        max-width: 35px;
+    }
+    nav ul li {
+        margin-bottom: 1.2px;
+        width: 100%;
+   } 
+    nav ul li {
+        width: calc(60% / 4);
+        min-width: 140px;
+        background-color: #FFCBDB;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 3px 3px #CCC;
+        margin-bottom: 1.2px;
+        width: 100%;
+    }
+    #container nav{
+        background-color: gainsboro;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palevioletred;
+    display: block;
+    padding: 10px;
+    }
+}
+
+/* *** Dispositivos, a partir de 414px *** */
+
+@media screen and (min-width: 414px){      
+    
+    h1 {  
+        line-height: 50px;
+    } 
+    p{
+        font-size: 8px;
+    }
+    img#logo {
+        width:12%;
+        height: auto;
+    }
+    #list_menu {                       
+        display: block;
+    }
+    .icon {                          
+        display: none;
+    }
+    footer td {
+        min-width: 160px;              
+    }
+    nav ul li {
+        width: calc(60% / 4);
+        min-width: 140px;
+        background-color: #FFCBDB;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 3px 3px #CCC;
+    }
+    #container nav{
+        background-color: gainsboro;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palevioletred;
+    display: block;
+    padding: 10px;
+    }
+    
+}
+
+/* *** Dispositivos, a partir de 650px *** */
+
+@media screen and (min-width: 650px){      
+    
+    #list_menu {            
+        display: flex;                   
+        flex-wrap: wrap; 
+        justify-content: flex-end;
+    }
+    p{
+        font-size: 10px;
+    }
+    nav {
+        position: sticky; 
+        top:0;
+    }
+    nav ul li {
+        width: calc(60% / 4);
+        min-width: 140px;
+        background-color: #FFCBDB;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 3px 3px #CCC;
+    }
+    #container nav{
+        background-color: gainsboro;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palevioletred;
+    display: block;
+    padding: 10px;
+    }
+    
+}
+
+
+/* *** Dispositivos, a partir de 980px em diante *** */
+
+@media screen and (min-width: 980px){       
+    
+    h1 {
+        font-size: 200%;
+        line-height: 100px;
+    }
+    p{
+        font-size: 15px;
+    }
+    img#logo {
+        max-width: 95px;
+    }
+     #list_menu {            
+        justify-content: flex-end; 
+    }
+    nav ul li {
+        width: calc(60% / 4);
+        min-width: 140px;
+        background-color: #FFCBDB;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 3px 3px #CCC;
+    }
+    #container nav{
+        background-color: gainsboro;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palevioletred;
+    display: block;
+    padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+    #container {
+        max-width: 1440px;            
+    }
+    #box_header {                              
+        width: 100%;                   
+    }
+    aside {
+        background-color: darkorange;
+    }
+    aside li {
+        color: #444;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 600px){
+    input{
+        width: 100%;
+        color: #292929;
+        font-size: 18px;
+        background-color: #E9E9E9;
+        border: 1px solid #E9E9E9;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        text-indent: 20px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
